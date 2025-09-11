@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <Button android:id="@+id/btn0" style="@style/BoardButton"/>
+            <Button android:id="@+id/btn1" style="@style/BoardButton"/>
+            <Button android:id="@+id/btn2" style="@style/BoardButton"/>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/btn3" style="@style/BoardButton"/>
+            <Button android:id="@+id/btn4" style="@style/BoardButton"/>
+            <Button android:id="@+id/btn5" style="@style/BoardButton"/>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/btn6" style="@style/BoardButton"/>
+            <Button android:id="@+id/btn7" style="@style/BoardButton"/>
+            <Button android:id="@+id/btn8" style="@style/BoardButton"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your turn"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart Game"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>
