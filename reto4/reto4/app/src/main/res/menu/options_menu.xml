@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/new_game"
+        android:title="New Game"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ai_difficulty"
+        android:title="Difficulty"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/quit"
+        android:title="Quit"
+        app:showAsAction="never" />
+</menu>
