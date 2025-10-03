@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/new_game"
+        android:icon="@drawable/ic_refresh"
+        android:title="New Game" />
+
+    <item
+        android:id="@+id/ai_difficulty"
+        android:icon="@drawable/ic_settings"
+        android:title="Difficulty" />
+
+    <item
+        android:id="@+id/quit"
+        android:icon="@drawable/ic_exit"
+        android:title="Quit" />
+</menu>
